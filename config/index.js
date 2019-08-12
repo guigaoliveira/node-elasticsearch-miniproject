@@ -1,0 +1,1 @@
+exports.es = require("./elasticsearch");

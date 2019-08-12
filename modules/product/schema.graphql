@@ -1,0 +1,12 @@
+extend type Query {
+  searchProduct(name: String!): [Product]
+}
+
+extend type Mutation {
+  createProduct(name: String!): Product
+}
+
+type Product {
+  id: ID
+  name: String
+}
